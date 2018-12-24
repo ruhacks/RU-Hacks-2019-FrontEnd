@@ -786,6 +786,31 @@ body {
   margin-top: 15px;
 }
 
+/* ==================================
+----- TRACKs & CHALLENGES SECTION ----
+=====================================*/
+
+.Tracks-section {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 20px;
+}
+
+.Tracks-section h4 {
+  color: #415b90;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.Tracks-section p {
+  color: #415b90;
+  margin-top: 15px;
+}
+
 /* ======================
 ----- FOOTER SECTION ----
 =======================*/
