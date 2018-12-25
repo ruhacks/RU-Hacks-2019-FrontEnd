@@ -259,6 +259,7 @@ body {
   align-items: center;
   background-color: transparent;
   background-image: url('../img/splash/slanted_1920x1080.png');
+  /*background-image: url('../img/splash/Untitled-1.jpg');*/
   background-image: url('../img/splash/layout_animated_anigen.svg');
   background-position: bottom;
   background-repeat: no-repeat;
@@ -654,7 +655,7 @@ body {
 .sponsors-section .sponsor-flex-container img#sponsor-github,
 .sponsors-section .sponsor-flex-container img#sponsor-mlh
 {
-  
+
   height: 4em;
 }
 .sponsors-section .sponsor-flex-container img#sponsor-FoS,
@@ -692,7 +693,7 @@ body {
   .sponsors-section .sponsor-flex-container img#sponsor-td {
     width: auto;
   }
-  
+
   .sponsors-section .sponsor-flex-container img#sponsor-thales,
   .sponsors-section .sponsor-flex-container img#sponsor-cibc {
     width: 8em;
@@ -701,13 +702,13 @@ body {
   .sponsors-section .sponsor-flex-container img#sponsor-fdm {
     width: 14em;
   }
-  
+
   .sponsors-section .sponsor-flex-container img#sponsor-rogers,
   .sponsors-section .sponsor-flex-container img#sponsor-consensys
   {
     width: 18em;
   }
-  
+
   .sponsors-section .sponsor-flex-container img#sponsor-jetbrains {
     width: 14em;
   }
@@ -717,7 +718,7 @@ body {
   .sponsors-section .sponsor-flex-container img#sponsor-github,
   .sponsors-section .sponsor-flex-container img#sponsor-mlh
   {
-    
+
     width: 12em;
   }
   .sponsors-section .sponsor-flex-container img#sponsor-FoS,
