@@ -260,7 +260,7 @@ body {
   background-color: transparent;
   background-image: url('../img/splash/slanted_1920x1080.png');
   /*background-image: url('../img/splash/Untitled-1.jpg');*/
-  background-image: url('../img/splash/layout_animated_anigen.svg');
+  /*background-image: url('../img/splash/layout_animated_anigen.svg');*/
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,13 +278,13 @@ body {
   color: #ffdc00;
   padding: 60px 0 60px 0;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   z-index: 100;
 
 }
 
 .first-section .text-content h2 {
-  font-size: 30px;
+  font-size: 35px;
   /*text-transform: uppercase;*/
   font-weight: 500;
   letter-spacing: 1px;
@@ -298,7 +298,7 @@ body {
 }
 
 .first-section .text-content div {
-  font-size: 18px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
