@@ -1920,7 +1920,7 @@ a.box:active {
 }
 
 .button.is-link {
-  background-color: #0077c7;
+  background-color: rgb(51, 66, 121);
   border-color: transparent;
   color: #fff;
 }

@@ -244,6 +244,17 @@ body {
   }
 }
 
+#message{
+	/* background-color: black; */
+	background: rgba(51, 66, 121, 0.85);
+	color: white; 
+	display: inline;
+	padding: 0.5rem;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	font-size: 20px;
+}
+
 /* ======================
 ----- FIRST SECTION------
 =======================*/
@@ -1039,7 +1050,7 @@ footer a:hover {
 }
 
 .topnav {
-  background-color: #002d72;
+  background-color: rgb(51, 66, 121);
   overflow: hidden;
   position: fixed;
   width: 100%;
