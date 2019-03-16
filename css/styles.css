@@ -2,6 +2,7 @@ body {
   overflow: hidden !important;
 }
 
+
 .hero.is-blue {
   background-color: #38427d;
   color: #0a0a0a;
@@ -268,10 +269,11 @@ body {
 
 .first-section #splash-background {
   align-items: center;
-  background-color: transparent;
-  background-image: url('../img/splash/slanted_1920x1080.png');
+  background-color: white;
+  /*background-image: url('../img/splash/slanted_1920x1080.png');*/
+  /*background-image: url('../img/splash/streetcar_small')*/
   /*background-image: url('../img/splash/Untitled-1.jpg');*/
-  /*background-image: url('../img/splash/layout_animated_anigen.svg');*/
+  background-image: url('../img/splash/layout.svg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,7 +284,7 @@ body {
   position: relative;
   transition: background .5s;
   width: 100%;
-  z-index:50;
+  z-index:30;
 }
 
 .first-section .text-content {
@@ -354,6 +356,151 @@ body {
     display: block;
   }
 }
+
+/* This is used for the Logo*/
+.first-section .swing-in-top-fwd {
+  z-index:10;
+	-webkit-animation: swing-in-top-fwd 1.5s ease-out both;
+	        animation: swing-in-top-fwd 1.5s ease-out both;
+}
+/**
+ * ----------------------------------------
+ * animation swing-in-top-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+
+ /* Ryerson University Writing*/
+ .first-section .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* The boats*/
+.wobble-hor-top {
+	-webkit-animation: wobble-hor-top 2.5s ease-in 1s infinite both;
+	        animation: wobble-hor-top 2.5s ease-in 1s infinite both;
+}
+/**
+ * ----------------------------------------
+ * animation wobble-hor-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes wobble-hor-top {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+@keyframes wobble-hor-top {
+  0%,
+  100% {
+    
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
 
 /* ======================
 ---- ABOUT SECTION------
