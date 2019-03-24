@@ -432,6 +432,7 @@ body {
   }
 }
 /* The boats*/
+/* This hasn't been implemented */
 .wobble-hor-top {
 	-webkit-animation: wobble-hor-top 2.5s ease-in 1s infinite both;
 	        animation: wobble-hor-top 2.5s ease-in 1s infinite both;
