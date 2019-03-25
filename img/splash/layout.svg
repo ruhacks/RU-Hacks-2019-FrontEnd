@@ -8432,19 +8432,19 @@
 			c-0.645-0.009-1.156-0.645-1.14-1.423c0.015-0.74,0.513-1.32,1.141-1.327C735.055,934.163,735.563,934.754,735.562,935.541z"/>
 			<style>
 			.boat31Move{
-				animation-name: boatMoves;
+				animation-name: boat31Moves;
 				animation-duration: 31s;
 				animation-iteration-count: infinite;
 				animation-timing-function: linear;
 				transform-origin: 50% 50%;
 				animation-direction: alternate;
 			}
-			@keyframes boatMoves{
+			@keyframes boat31Moves{
 				0%	{transform: tranlste(0, 0);}
 				20%	{transform: translate(10px, 10px);}
 				40%	{transform: translate(20px, 20px);}
-				60%	{transform: translate(30px, -10px);}
-				80%	{transform: translate(20px, -20px);}
+				60%	{transform: translate(20px, 0px);}
+				80%	{transform: translate(20px, 0px);}
 				100%	{transform: translate(0, 0);}
 			}
 		</style>
@@ -8885,7 +8885,7 @@
 				40%	{transform: translate(20px, 20px);}
 				60%	{transform: translate(30px, -10px);}
 				80%	{transform: translate(20px, -20px);}
-				100%	{transform: translate(0, 0);}
+				100%	{transform: translate(10px, 10px);}
 			}
 		</style>
 	</g>
@@ -8975,7 +8975,7 @@
 				40%	{transform: translate(20px, 20px);}
 				60%	{transform: translate(30px, -10px);}
 				80%	{transform: translate(20px, -20px);}
-				100%	{transform: translate(0, 0);}
+				100%	{transform: translate(20px, 20px);}
 			}
 		</style>
 
@@ -9064,7 +9064,8 @@
 				0%	{transform: tranlste(0, 0);}
 				20%	{transform: translate(10px, 10px);}
 				40%	{transform: translate(20px, 20px);}
-				60%	{transform: translate(30px, -10px);}
+				60%	{transform: translate(30px, -15px);}
+				70%	{transform: translate(30px, -35px);}
 				80%	{transform: translate(20px, -20px);}
 				100%	{transform: translate(0, 0);}
 			}
@@ -9156,7 +9157,7 @@
 				0%	{transform: tranlste(0, 0);}
 				20%	{transform: translate(10px, 10px);}
 				40%	{transform: translate(20px, 20px);}
-				60%	{transform: translate(30px, -10px);}
+				60%	{transform: translate(30px, 0px);}
 				80%	{transform: translate(20px, -20px);}
 				100%	{transform: translate(0, 0);}
 			}
