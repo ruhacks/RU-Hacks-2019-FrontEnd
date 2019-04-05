@@ -778,67 +778,64 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 1.5em 0;
+  margin: 0 0;
 }
 
 .sponsors-section .sponsor-flex-container img {
   margin: 1.5em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-td {
+.sponsors-section .sponsor-flex-container img#bmo-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 16em;
+  height: 12em;
 }
-.sponsors-section .sponsor-flex-container img#sponsor-thales,
-.sponsors-section .sponsor-flex-container img#sponsor-cibc,
+
+.sponsors-section .sponsor-flex-container img#sponsor-chainsafe {
+  height: 12em;
+}
+
 .sponsors-section .sponsor-flex-container img#sponsor-fdm {
   height: 8em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-rogers {
-  height: 4em;
+.sponsors-section .sponsor-flex-container img#sponsor-lighthouselabs {
+  height: 5em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-consensys {
-  height: 8em;
+.sponsors-section .sponsor-flex-container img#sponsor-hackerearth{
+  height: 4.5em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-jetbrains {
-  height: 16em;
+.sponsors-section .sponsor-flex-container img#sponsor-techdom,
+.sponsors-section .sponsor-flex-container img#sponsor-mlh {
+  height: 4.5em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-dot-tech,
-.sponsors-section .sponsor-flex-container img#sponsor-hackerearth,
-.sponsors-section .sponsor-flex-container img#sponsor-github,
-.sponsors-section .sponsor-flex-container img#sponsor-mlh
-{
-
-  height: 4em;
-}
-.sponsors-section .sponsor-flex-container img#sponsor-FoS,
-.sponsors-section .sponsor-flex-container img#sponsor-ree {
+.sponsors-section .sponsor-flex-container img#sponsor-dmz {
   height: 6em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-recess {
-  height: 10em;
+.sponsors-section .sponsor-flex-container img#sponsor-dot-tech,
+.sponsors-section .sponsor-flex-container img#foundsbeta_logo,
+.sponsors-section .sponsor-flex-container img#beamcity_logo
+{
+  height: 5em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-rss,
-.sponsors-section .sponsor-flex-container img#sponsor-ress
-{
-  height: 12em;
-}
-.sponsors-section .sponsor-flex-container img#sponsor-cpc,
-.sponsors-section .sponsor-flex-container img#sponsor-LUG,
-.sponsors-section .sponsor-flex-container img#sponsor-IEEE
-{
-  height: 8em;
+.sponsors-section .sponsor-flex-container img#sponsor-rsu,
+.sponsors-section .sponsor-flex-container img#sponsor-ece {
+  height: 4em;
 }
 
-@media (max-width:768px) {
+.sponsors-section .sponsor-flex-container img#sponsor-rss
+{
+  height: 4em;
+}
+
+
+/*@media (max-width:768px) {
   .sponsors-section img#sponsor-child-play {
     height: auto;
   }
@@ -877,7 +874,6 @@ body {
   .sponsors-section .sponsor-flex-container img#sponsor-github,
   .sponsors-section .sponsor-flex-container img#sponsor-mlh
   {
-
     width: 12em;
   }
   .sponsors-section .sponsor-flex-container img#sponsor-FoS,
@@ -894,7 +890,7 @@ body {
   {
     width: 10em;
   }
-}
+}*/
 
 /* ======================
 --- PRIZES SECTION---
