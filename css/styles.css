@@ -792,12 +792,20 @@ body {
   height: 10em;
 }
 
+.sponsors-section .sponsor-flex-container img#itrade-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10em;
+  width: 50%;
+}
+
 .sponsors-section .sponsor-flex-container img#sponsor-chainsafe {
   height: 12em;
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-fdm {
-  height: 8em;
+  height: 6em;
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-lighthouselabs {
@@ -826,8 +834,14 @@ body {
 
 .sponsors-section .sponsor-flex-container img#sponsor-ieee,
 .sponsors-section .sponsor-flex-container img#sponsor-rsu,
+.sponsors-section .sponsor-flex-container img#sponsor-stickermule,
 .sponsors-section .sponsor-flex-container img#sponsor-ece {
   height: 3em;
+}
+
+.sponsors-section .sponsor-flex-container img#sponsor-ieee,
+.sponsors-section .sponsor-flex-container img#sponsor-stickermule {
+  height: 3.5em;
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-rss
