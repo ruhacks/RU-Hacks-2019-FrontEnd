@@ -789,15 +789,14 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 10em;
+  height: 8em;
 }
 
 .sponsors-section .sponsor-flex-container img#itrade-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 10em;
-  width: 50%;
+  height: 8em;
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-chainsafe {
