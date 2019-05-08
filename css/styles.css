@@ -789,7 +789,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 8em;
+  height: 7em;
 }
 
 .sponsors-section .sponsor-flex-container img#itrade-logo {
@@ -808,6 +808,8 @@ body {
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-lighthouselabs {
+  display: block;
+  margin-right: auto;
   height: 5em;
 }
 
