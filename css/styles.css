@@ -273,7 +273,8 @@ body {
   /*background-image: url('../img/splash/slanted_1920x1080.png');*/
   /*background-image: url('../img/splash/streetcar_small')*/
   /*background-image: url('../img/splash/Untitled-1.jpg');*/
-  background-image: url('../img/splash/layout.svg');
+  /*background-image: url('../img/splash/layout.svg');*/
+  background-image: url('../img/splash/temp.JPG');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -799,18 +800,29 @@ body {
   height: 8em;
 }
 
+
 .sponsors-section .sponsor-flex-container img#sponsor-chainsafe {
   height: 12em;
 }
 
-.sponsors-section .sponsor-flex-container img#sponsor-fdm {
+.sponsors-section .sponsor-flex-container img#sponsor-fdm,
+.sponsors-section .sponsor-flex-container img#sponsor-jumpstart {
   height: 6em;
 }
 
+
+.sponsors-section .sponsor-flex-container img#sponsor-cse {
+  height: 9em;
+}
 .sponsors-section .sponsor-flex-container img#sponsor-lighthouselabs {
   display: block;
   margin-right: auto;
   height: 5em;
+}
+
+
+.sponsors-section .sponsor-flex-container img#sponsor-resolver{
+  height: 3.5em;
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-hackerearth{
@@ -818,6 +830,9 @@ body {
 }
 
 .sponsors-section .sponsor-flex-container img#sponsor-techdom,
+.sponsors-section .sponsor-flex-container img#sponsor-feas,
+.sponsors-section .sponsor-flex-container img#sponsor-fs,
+.sponsors-section .sponsor-flex-container img#hypercare,
 .sponsors-section .sponsor-flex-container img#sponsor-mlh {
   height: 4.5em;
 }
@@ -837,6 +852,7 @@ body {
 .sponsors-section .sponsor-flex-container img#sponsor-rsu,
 .sponsors-section .sponsor-flex-container img#sponsor-stickermule,
 .sponsors-section .sponsor-flex-container img#sponsor-cleanzone,
+.sponsors-section .sponsor-flex-container img#sponsor-brain,
 .sponsors-section .sponsor-flex-container img#sponsor-ece {
   height: 3em;
 }
